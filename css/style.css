@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -91,17 +91,17 @@ nav{
 }
 header {
     background-color: var(--color-square-header);
-    height: 500px;
+    height: 550px;
 }
 .jumbo {
     width: 80vh;
 }
 h1 {
-    font-size:4em;
+    font-size:3.5em;
     padding: 30px 0;
     font-weight: 600;
-    text-align: center;
 }
-.paragraph {
-        width: 50px;
+
+.size-image {
+    width: 100%;
 }
