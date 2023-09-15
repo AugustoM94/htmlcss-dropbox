@@ -40,6 +40,12 @@ body {
     align-items: flex-start;
     align-content: center;
         }
+ .f-start{
+     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center
+        }
 .column-flex {
      display: flex;
      flex-direction: column;
@@ -60,6 +66,7 @@ body {
 /* Header */
 .first-size-header {
     width: 30%;
+    padding: 0;
 }
 .seconds-size-header {
     width: 40%;
