@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-secondary: #ffffff;
+    --color-primary: #000000;
+    --color-square-uno: #A2D39B;
+    --color-square-due:  #61082b;
+    --color-square-tre: #0093ce;
+    --color-square-quattro: #ff1c1c;
+    --color-square-cinque: #d5001f;
+    --color-square-header: #b4d0e7;
+    --color-square-sette: #0d2481;
+    --color-square-otto: #ffd830;
+    --color-square-big: #f5f5f5;
+    --color-button: #0061ff;
+
+}
+body {
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
