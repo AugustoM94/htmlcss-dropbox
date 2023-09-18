@@ -193,14 +193,10 @@ h1 {
     bottom: -70px;
 }
 /* MAIN */
-.fa-dautone{
+/* .fa-dautone{
     padding-right: 10px;
-}
-.container-main {
-    max-width:  1000px;
-    padding-top: 100px;
-    margin: 0 auto;
-}
+} */
+
 
 h2 {
     font-size: 2.5em;
@@ -215,10 +211,10 @@ label  {
 }
 
 .first-section-facture {
-    width: calc(100% / 3 - 90);
+    width: calc(100% / 3 - 70);
     border: 1px solid  #666;
     margin-top: 40px;
-    margin-right: 70px;
+    margin-right: 35px;
     padding: 10px;
     height: 900px;
 
@@ -231,7 +227,7 @@ label  {
 
 
 .margin-left {
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 
@@ -252,7 +248,7 @@ span,  p {
         background-color: var(--color-button);
         padding: 10px;
          display: block;
-         margin-left: 30px;
+         margin-left: 20px;
          border: none;
          margin-top: 30px;
          color: var(--color-secondary);
@@ -319,15 +315,16 @@ h5 {
     margin-top: 100px;
 }
 .logo-partner {
-    width: 80vh;
+    width: 70vh;
 }
 .paragraph-partner {
-    width: 30%;
-    padding: 30px 0px;
-    margin-right: 60px;
+    width: 40%;
+   margin-top: 10px;
+   margin-bottom: 20px;
+    margin-left: 40px;
 }
 .section-logo-partner {
-    width: 70%;
+    width: 60%;
 }
 .trova-un-partner {
     width: 150px;
@@ -446,7 +443,6 @@ h5 {
 #title-prova {
     color: #6A172B;
 }
-.size-gratuita .size-gratuita-due
-{
-    padding-top: 100px;
+.prova-gratuita {
+    padding: 100px;
 }
