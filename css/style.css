@@ -99,8 +99,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 250px;
     
 }
 .first-size-header {
@@ -192,10 +191,6 @@ h1 {
     position: relative;
     bottom: -70px;
 }
-/* MAIN */
-/* .fa-dautone{
-    padding-right: 10px;
-} */
 
 
 h2 {
@@ -228,9 +223,11 @@ label  {
 
 .margin-left {
     margin-left: 10px;
-
 }
-
+.margin-bottom {
+    margin-bottom: 20px;
+    color: lightgrey;
+}
 h3 {
    font-size: 1.5em;
    margin: 20px 0;
@@ -252,9 +249,7 @@ span,  p {
          border: none;
          margin-top: 30px;
          color: var(--color-secondary);
-       }
-     
-
+}
 .border-bottom {
     margin: 30px 0px 10px 20px;
     padding: 0;
@@ -333,6 +328,9 @@ h5 {
     margin-top: 20px;
     margin-left: 10px;
 }
+.text-indent {
+    text-indent: -0.5em;
+}
 .section-operation {
     width: 100%;
     margin-top: 30px;
@@ -365,8 +363,8 @@ h5 {
     height: 60vh;
 }
 .little-square {
-    width: calc(100% / 2);
-    height: 30vh;
+    width: 50%;
+    height: 50%;
     position: relative;
 }
 .square-uno {
@@ -445,4 +443,51 @@ h5 {
 }
 .prova-gratuita {
     padding: 100px;
+}
+#frequenti {
+    margin-top: 100px;
+    font-size: 2em;
+    margin-bottom: 50px;
+    padding: 0;
+}
+.lorem {
+    display: none;
+}
+.padding-20 {
+    padding: 20px 0;
+    border-top: 1px solid #666;
+}
+.fa-chevron-down {
+    margin-left: 150px;
+}
+
+footer {
+    background-color: #000000;
+    margin-top: 100px;
+}
+.black {
+   background-color: var(--color-primary);
+   padding: 50px 0;
+}
+li {
+    color: var(--color-secondary);
+    list-style: none;
+    padding: 10px;
+    font-size: 0.8em;
+}
+nav li a {
+    color: var(--color-secondary);
+}
+ul > h4 {
+    color: var(--color-secondary);
+}
+
+.txt-lightgrey {
+    color: lightgrey;
+    margin-left: 10px;
+   padding: 30px 0px;
+}
+.border-top {
+    border-top: 1px solid white;
+
 }
