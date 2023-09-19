@@ -478,7 +478,7 @@ h5 {
     transform: translate(-50%, -50%);
     aspect-ratio: auto;    
 }
-.logo-brand:hover {
+.logo-brand {
     filter: invert(100%);
 }
 
@@ -578,4 +578,21 @@ ul > h4 {
 
 li a:hover {
     color: var(--color-square-cinque);
+}
+.little-square:hover {
+    border: 3px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 2px 2px 3px #427388;
+}
+.logo-brand:hover {
+    filter: invert(50%);
+}
+.square-big:hover {
+    border: 3px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 2px 2px 3px #427388;
 }
