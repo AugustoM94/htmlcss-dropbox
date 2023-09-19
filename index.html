@@ -15,15 +15,28 @@
     <header>
         <div class="fixed">
            <nav class="d-flex" >
-               <div class="first-size-header f-start">
-                   <img class="logo" src="img/logo-small.png" alt="logo">
-                   <a href="#">Perchè Discord</a>
-                   <a href="#">Funzioni</a>
-                   <a href="#">Piani e Prezzi</a>
-               </div>
+            <div id="drop-menu">
+                <ul id="menu">
+                    <li> <img class="logo" src="img/logo-small.png" alt="logo"></li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a>
+                        <ul>
+                            <li><a href="#">Classe#107</a></li>
+                            <li><a href="#">Boolean</a></li>
+                            <li><a href="#">Front-end</a></li>
+                            <li><a href="#">Back-end</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Piani e Prezzi</a></li>
+                </ul>
+            </div>
                <div class="second-size-header d-flex">
+                <div>
                     <a href="#">Supporto</a>
+                </div>
+                <div>
                     <a href="#">Contatta l'ufficio vendite</a>
+                </div>
                     <input class="button" type="button" value="Accedi">
                     <input class="button button-blue" type="button" value="Inizia">
                </div>
@@ -53,7 +66,7 @@
       <div class="container-section">
         <h2 class="margin-top">Trova il piano business che fa per te</h2>
            <div>
-            <input id="mese" name="Fatturazione" type="radio" value="mensile">
+            <input id="mese" name="Fatturazione" type="radio" value="mensile" checked>
             <label for="mese">Fatturazione mensile</label>
                 <input  id="anno" name="Fatturazione" type="radio" value="annuale">
                 <label for="anno">Fatturazione annuale</label>
@@ -88,7 +101,7 @@
                             <span>oppure</span> <a class="acquista-ora" href="#">acquista ora</a>
                          </div>
                         <hr>
-                        <div class="punti-salienti">
+                        <div class="punti-salienti text-indent">
                             <h4>Punti Salienti del piano</h4>
                             <p><i class="fa-solid fa-check"></i> Invia file fino a 100GB con Dropbox Transfert</p>
                             <p><i class="fa-solid fa-check"></i>Cartelle offline per dispositivi mobili</p>
@@ -124,7 +137,7 @@
                                 <span>oppure</span> <a class="acquista-ora" href="#">acquista ora</a>
                              </div>
                             <hr>
-                            <div class="punti-salienti">
+                            <div class="punti-salienti text-indent">
                                 <h4>Punti Salienti del piano</h4>
                                 <p><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</p>
                                 <p><i class="fa-solid fa-check"></i> Cartelle offline per dispositivi mobili</p>
@@ -162,7 +175,7 @@
                                     <span>oppure</span> <a class="acquista-ora" href="#">acquista ora</a>
                                  </div>
                                 <hr>
-                                <div class="punti-salienti">
+                                <div class="punti-salienti text-indent">
                                     <h4>Punti Salienti del piano</h4>
                                     <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili </p>
                                     <p><i class="fa-solid fa-check"></i> Servizio assistenza 24/h </p>
@@ -200,7 +213,7 @@
                  <h3 class="container-section title-operation"> Esegui più operazioni con Dropbox Business</h3>
         <section class="section-operation container-section space-between-wrap">
         <div class="calc-section-operation">
-            <div>
+            <div >
                 <img class="logo-operation"  src="img/business-feature-switching-tools.png" alt="image-operations1">
             </div>
             <h3> Passa di meno da uno strumento all'altro</h3>
@@ -248,15 +261,15 @@
               <a class="scopri" href="#">Scopri di più sui nostri clienti</a>
         </div>
         <section class="section-square f-start">
-            <div class="big-square border debug f-start wrap">
+            <div class="big-square border  f-start wrap">
                 <div class="little-square square-uno f-start wrap ">
                     <div class="size-logo-brand">                   
-                        <img class="logo-brand" src="img/designit.svg" alt="designit-image">
+                        <img class="logo-brand " src="img/designit.svg" alt="designit-image">
                     </div>
                 </div>
                 <div class="little-square square-due">
                     <div class="section-logo-brand">                   
-                        <img class="logo-brand" src="img/arizona_state_university.svg" alt="arizona_state_university-image">
+                        <img class="logo-brand " src="img/arizona_state_university.svg" alt="arizona_state_university-image">
                     </div>
                 </div>
                 <div class="little-square square-tre">
@@ -321,9 +334,9 @@
    </section>
 </main>
     <footer>
-        <section class="container">
+        <section class="container-footer">
             <nav class="black space-between">
-            <ul>
+            <ul class="li-footer">
                 <h4>Dropbox</h4>
                 <li><a href="">Applicazione desktop</a></li>
                 <li><a href="">Perchè Dropbox</a></li>
@@ -331,7 +344,7 @@
                 <li><a href="">Sicurezza</a></li>
                 <li><a href="">Funzioni</a></li>
             </ul>
-            <ul>
+            <ul class="li-footer">
                 <h4>Prodotti</h4>
                 <li><a href="">Applicazione desktop</a></li>
                 <li><a href="">Perchè Dropbox</a></li>
@@ -339,7 +352,7 @@
                 <li><a href="">Sicurezza</a></li>
                 <li><a href="">Funzioni</a></li>
             </ul>
-            <ul>
+            <ul class="li-footer">
                 <h4>Azienda</h4>
                 <li><a href="">Applicazione desktop</a></li>
                 <li><a href="">Perchè Dropbox</a></li>
@@ -347,7 +360,7 @@
                 <li><a href="">Sicurezza</a></li>
                 <li><a href="">Funzioni</a></li>
             </ul>
-            <ul>
+            <ul class="li-footer">
                 <h4>Supporto</h4>
                 <li><a href="">Applicazione desktop</a></li>
                 <li><a href="">Perchè Dropbox</a></li>
@@ -355,7 +368,7 @@
                 <li><a href="">Sicurezza</a></li>
                 <li><a href="">Funzioni</a></li>
             </ul>
-            <ul>
+            <ul class="li-footer">
                 <h4>Community</h4>
                 <li><a href="">Applicazione desktop</a></li>
                 <li><a href="">Perchè Dropbox</a></li>
