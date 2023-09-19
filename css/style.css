@@ -585,9 +585,13 @@ li a:hover {
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
   text-shadow: 2px 2px 3px #427388;
+  
 }
 .logo-brand:hover {
-    filter: invert(50%);
+    width: 200px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 .square-big:hover {
     border: 3px solid;
